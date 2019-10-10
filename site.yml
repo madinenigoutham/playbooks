@@ -1,0 +1,6 @@
+---
+- name: setting jvm ddxcvs
+  hosts: all
+
+  roles:
+    - ddxcvs

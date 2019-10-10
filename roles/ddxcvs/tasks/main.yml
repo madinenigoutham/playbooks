@@ -1,0 +1,13 @@
+---
+- name: creating the app folder
+  file:
+    path: "/opt/jwstc/servers/DDXCvs"
+    state: direcorty
+    mode: "0755"
+    owner: "tomcat"
+    group: "tomcat"
+
+
+- name: Copy jvm configuration for ddxcvs
+  template: src=status.sh dest=/opt/jwstc/servers/DDXCvs/status.sh
+  
