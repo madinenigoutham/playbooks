@@ -2,7 +2,7 @@
 - name: creating the app folder
   file:
     path: "/opt/jwstc/servers/DDXCvs"
-    state: direcorty
+    state: directory
     mode: "0755"
     owner: "tomcat"
     group: "tomcat"
