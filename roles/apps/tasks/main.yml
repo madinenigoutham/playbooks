@@ -11,3 +11,6 @@
 - name: Copy jvm configuration for ddxcvs
   template: src=status.sh dest=/opt/jwstc/servers/DDXCvs/status.sh
   
+ - name: Copy jvm configuration for ddxcvs
+  template: src=stop.sh dest=/opt/jwstc/servers/DDXCvs/stop.sh
+  
